@@ -1,5 +1,5 @@
 # games-lovers-enquete
-Projeto do Módulo 01 do BootCamp Dev Jr.
+Projeto 02 do Módulo 01 do BootCamp Dev Jr.
 
 # Projeto do Capítulo:
 
