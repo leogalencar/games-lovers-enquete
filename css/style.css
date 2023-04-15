@@ -1,0 +1,34 @@
+body {
+    background-color: #CCCCCC;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    background-image: linear-gradient(#1F0D22,#641F70);
+    color: #FFFFFF;
+    
+    margin: auto;
+    width: 800px;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 1rem 2rem;
+}
+
+.form-survey {
+    background-image: linear-gradient(#641F70, #1F0D22);
+
+    margin: 1rem 0;
+    border-radius: 5px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box-category {
+    background-image: linear-gradient(#3C5AEE, #74CFFF);
+    border: 5px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(#2638DB, #332988);
+}
