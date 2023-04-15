@@ -26,9 +26,9 @@ input:focus{
     
     margin: auto;
     width: 800px;
-    border-radius: 5px;
+    border-radius: 10px;
     overflow: hidden;
-    padding: 1rem 2rem;
+    padding: 0.7rem 2rem;
 }
 
 .form-survey {
@@ -37,20 +37,30 @@ input:focus{
 
     background-image: linear-gradient(#641F70, #1F0D22);
 
-    margin: 1rem 0;
-    border-radius: 5px;
+    margin: 0.5rem 0;
+    border-radius: 10px;
 }
 
 .flex-container {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+.box-border {
+    background-image: linear-gradient(#2638DB, #332988);
+    border-radius: 10px;
+    padding: 1rem 0.5rem 0.5rem 0.5rem;
 }
 
 .box-category {
     background-image: linear-gradient(#3C5AEE, #74CFFF);
-    border: 5px solid;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(#2638DB, #332988);
+
+    font-size: 1.9rem;
+    text-align: center;
+
+    padding: 2rem 1rem;
 }
 
 .header {
@@ -83,4 +93,5 @@ input:focus{
 
 .footer {
     text-align: center;
+    font-size: 0.9rem;
 }
